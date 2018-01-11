@@ -51,7 +51,7 @@ var queries = [params_one, params_two, params_three, params_one, params_two, par
 i = 0
 
 // TIME THE TWEETS
-setInterval(tweetIt, 1000*10)
+setInterval(tweetIt, 1000*60*30)
 
 // SETS SEARCH/TWEET IN MOTION
 function tweetIt() {
